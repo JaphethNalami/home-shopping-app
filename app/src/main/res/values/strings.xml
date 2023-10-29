@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Shelf</string>
+    <string name="milk">MILK</string>
+    <string name="sugar">SUGAR</string>
+    <string name="flour">FLOUR</string>
+    <string name="bread">BREAD</string>
+    <string name="grang_total">GRANG TOTAL</string>
+    <string name="discount_15">DISCOUNT 15%</string>
+    <string name="net_pay">NET PAY</string>
+    <string name="price">PRICE</string>
+    <string name="vat_16">VAT 16%</string>
+    <string name="actual_price">ACTUAL PRICE</string>
+    <string name="item">ITEM</string>
+</resources>

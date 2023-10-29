@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/box"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="@string/item" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="@string/price" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="@string/vat_16" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="@string/actual_price" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/milk"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:background="@drawable/cus"
+                android:text="@string/milk" />
+
+            <TextView
+                android:id="@+id/milk_p"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:background="@drawable/box"
+                android:textAlignment="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/milk_v"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/milk_a"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sugar"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/cus"
+                android:padding="1dp"
+                android:text="@string/sugar" />
+
+            <TextView
+                android:id="@+id/sugar_p"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/sugar_v"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:background="@drawable/box"
+                android:textAlignment="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/sugar_a"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/flour"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/cus"
+                android:padding="1dp"
+                android:text="@string/flour" />
+
+            <TextView
+                android:id="@+id/flour_p"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/flour_v"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/flour_a"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bread"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/cus"
+                android:padding="1dp"
+                android:text="@string/bread" />
+
+            <TextView
+                android:id="@+id/bread_p"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/bread_v"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/bread_a"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Not selected"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/total"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/cus"
+                android:padding="1dp"
+                android:text="@string/grang_total" />
+
+            <TextView
+                android:id="@+id/grand_t"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="press to calculate"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/discount"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/cus"
+                android:padding="1dp"
+                android:textAlignment="center"
+                android:text="@string/discount_15" />
+
+            <TextView
+                android:id="@+id/discount_t"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="press to calculate"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@drawable/box"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/netpay"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/cus"
+                android:padding="1dp"
+                android:text="@string/net_pay" />
+
+            <TextView
+                android:id="@+id/net_t"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:hint="press to calculate"
+                android:textStyle="italic"
+                android:background="@drawable/box"
+                android:text="" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
