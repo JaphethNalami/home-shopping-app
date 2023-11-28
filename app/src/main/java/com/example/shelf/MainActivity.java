@@ -88,10 +88,10 @@ public class MainActivity extends AppCompatActivity {
         Net_t = findViewById(R.id.net_t);
 
         //initializing price of items
-        milkprice = 1000;
+        milkprice = 1500;
         sugarprice = 2000;
-        flourprice = 3000;
-        breadprice = 4000;
+        flourprice = 3600;
+        breadprice = 4030;
 
         //milk button
         Milk.setOnClickListener(v -> {
